@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex01_WPF", "Ex01_WPF", "{7F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "Ex01_WPF\WpfApp1\WpfApp1.csproj", "{115DFDD2-8BB9-4B81-A8CA-D892320FF108}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex02_CalcContainer", "Ex02_CalcContainer", "{CB715A7A-0C5C-447F-BFAE-4E488B9D4E7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calc", "Ex02_CalcContainer\Calc\Calc.csproj", "{6F476AF8-3D14-4341-964D-CD18FEE6CD1C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{115DFDD2-8BB9-4B81-A8CA-D892320FF108}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{115DFDD2-8BB9-4B81-A8CA-D892320FF108}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{115DFDD2-8BB9-4B81-A8CA-D892320FF108}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F476AF8-3D14-4341-964D-CD18FEE6CD1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F476AF8-3D14-4341-964D-CD18FEE6CD1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F476AF8-3D14-4341-964D-CD18FEE6CD1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F476AF8-3D14-4341-964D-CD18FEE6CD1C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{115DFDD2-8BB9-4B81-A8CA-D892320FF108} = {7FE8BB5B-D46B-4702-8C66-D6368F610D5C}
+		{6F476AF8-3D14-4341-964D-CD18FEE6CD1C} = {CB715A7A-0C5C-447F-BFAE-4E488B9D4E7D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7166BBE0-D0A8-41F5-93FD-F247FA9179A5}
