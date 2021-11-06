@@ -15,6 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex03_TextEditor", "Ex03_Tex
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEditor", "Ex03_TextEditor\TextEditor\TextEditor.csproj", "{F33FC778-B2B3-4C96-B51D-22E5027A2A30}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex04_Converter", "Ex04_Converter", "{DE715C5C-9B1C-4566-B071-D421E853BD4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Converter", "Ex04_Converter\Converter\Converter.csproj", "{49410746-F337-4CB3-9CDB-4515B8F28508}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{F33FC778-B2B3-4C96-B51D-22E5027A2A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F33FC778-B2B3-4C96-B51D-22E5027A2A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F33FC778-B2B3-4C96-B51D-22E5027A2A30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49410746-F337-4CB3-9CDB-4515B8F28508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49410746-F337-4CB3-9CDB-4515B8F28508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49410746-F337-4CB3-9CDB-4515B8F28508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49410746-F337-4CB3-9CDB-4515B8F28508}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +49,7 @@ Global
 		{115DFDD2-8BB9-4B81-A8CA-D892320FF108} = {7FE8BB5B-D46B-4702-8C66-D6368F610D5C}
 		{6F476AF8-3D14-4341-964D-CD18FEE6CD1C} = {CB715A7A-0C5C-447F-BFAE-4E488B9D4E7D}
 		{F33FC778-B2B3-4C96-B51D-22E5027A2A30} = {D7EDBC36-D12F-4A00-A03B-0716498B38C7}
+		{49410746-F337-4CB3-9CDB-4515B8F28508} = {DE715C5C-9B1C-4566-B071-D421E853BD4A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7166BBE0-D0A8-41F5-93FD-F247FA9179A5}
