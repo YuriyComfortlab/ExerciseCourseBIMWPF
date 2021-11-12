@@ -27,6 +27,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex06_Property", "Ex06_Prope
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyTemp", "Ex06_Property\PropertyTemp\PropertyTemp.csproj", "{B3A41079-F9C3-4298-9B0A-D14B55500F1E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex07_CommandTextEditor", "Ex07_CommandTextEditor", "{428784DA-02CC-4F12-A6CA-5C88725D6430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEditor", "Ex07_CommandTextEditor\TextEditor\TextEditor.csproj", "{70999717-776C-4A23-AB68-5513F1125E36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,10 @@ Global
 		{B3A41079-F9C3-4298-9B0A-D14B55500F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3A41079-F9C3-4298-9B0A-D14B55500F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3A41079-F9C3-4298-9B0A-D14B55500F1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70999717-776C-4A23-AB68-5513F1125E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70999717-776C-4A23-AB68-5513F1125E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70999717-776C-4A23-AB68-5513F1125E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70999717-776C-4A23-AB68-5513F1125E36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,6 +76,7 @@ Global
 		{49410746-F337-4CB3-9CDB-4515B8F28508} = {DE715C5C-9B1C-4566-B071-D421E853BD4A}
 		{909D2262-50B8-45E5-9A5A-295CBD9FFBD6} = {85E2DD81-5AFB-412A-A915-6BF022CD3B33}
 		{B3A41079-F9C3-4298-9B0A-D14B55500F1E} = {F46C591C-7DC3-4A5B-AD09-5086932E42E8}
+		{70999717-776C-4A23-AB68-5513F1125E36} = {428784DA-02CC-4F12-A6CA-5C88725D6430}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7166BBE0-D0A8-41F5-93FD-F247FA9179A5}
