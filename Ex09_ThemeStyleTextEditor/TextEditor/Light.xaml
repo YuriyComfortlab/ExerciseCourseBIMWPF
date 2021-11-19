@@ -1,0 +1,54 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="WindowStyle">
+        <Setter Property="Control.Background" Value="White"/>
+        <Setter Property="Control.Foreground" Value="Black"/>
+        <Setter Property="Control.Margin" Value="2"/>
+        <Setter Property="Control.Padding" Value="1"/>
+        <Setter Property="Control.BorderThickness" Value="1"/>
+        <Setter Property="Control.BorderBrush" Value="Gray"/>
+    </Style>
+
+    <Style TargetType="ToolBarTray" BasedOn="{StaticResource WindowStyle}"/>
+
+    <Style TargetType="MenuItem" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="MenuItem.Margin" Value="3"/>
+        <Setter Property="MenuItem.Padding" Value="1"/>
+    </Style>
+
+    <Style TargetType="ToolBar" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="ToolBar.Foreground" Value="Black"/>
+        <Setter Property="ToolBar.BorderBrush" Value="Gray"/>
+        <Setter Property="ToolBar.Margin" Value="0"/>
+        <Setter Property="ToolBar.Padding" Value="0"/>
+    </Style>
+
+    <Style TargetType="ComboBox" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="ComboBox.Background" Value="White"/>
+        <Setter Property="ComboBox.Foreground" Value="Black"/>
+        <Setter Property="ComboBox.BorderBrush" Value="Gray"/>
+        <Setter Property="ComboBox.Margin" Value="2"/>
+        <Setter Property="ComboBox.Padding" Value="1"/>
+        <Setter Property="ComboBox.Height" Value="22"/>
+    </Style>
+
+    <Style TargetType="RadioButton" BasedOn="{StaticResource WindowStyle}">
+    </Style>
+
+    <Style TargetType="ToggleButton" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="ToggleButton.Foreground" Value="Black"/>
+        <Setter Property="ToggleButton.FontSize" Value="20"/>
+        <Setter Property="ToggleButton.Height" Value="20"/>
+    </Style>
+
+    <Style TargetType="TextBlock" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="ComboBox.Background" Value="White"/>
+        <Setter Property="TextBlock.Foreground" Value="Black"/>
+        <Setter Property="TextBlock.Padding" Value="1"/>
+    </Style>
+
+    <Style TargetType="TextBox" BasedOn="{StaticResource WindowStyle}">
+        <Setter Property="TextBox.Foreground" Value="Black"/>
+        <Setter Property="TextBox.Padding" Value="10"/>
+    </Style>
+</ResourceDictionary>

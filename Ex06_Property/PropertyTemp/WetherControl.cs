@@ -58,21 +58,22 @@ namespace PropertyTemp
 
         public Precipitations Precipitation 
         {
-            set
-            {
-                if ((int)value >= 0 && (int)value <= 3)
-                {
-                    precipitation = (int)value;
-                }
-                else
-                {
-                    precipitation = 0;
-                }
-            }
-            get
-            {
-                return (Precipitations)precipitation;
-            }
+            //set
+            //{
+            //    if ((int)value >= 0 && (int)value <= 3)
+            //    {
+            //        precipitation = (int)value;
+            //    }
+            //    else
+            //    {
+            //        precipitation = 0;
+            //    }
+            //}
+            //get
+            //{
+            //    return (Precipitations)precipitation;
+            //}
+            get;set;
         }
            
 
