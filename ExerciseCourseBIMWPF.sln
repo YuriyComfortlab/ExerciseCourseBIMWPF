@@ -39,6 +39,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex09_StyleThemeTextEditor",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextEditor", "Ex09_ThemeStyleTextEditor\TextEditor\TextEditor.csproj", "{953D0538-D5B9-4B4E-8F20-E0078D112E83}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex10_FiguresTransform", "Ex10_FiguresTransform", "{3AFC9362-7895-401D-A538-18948461DF40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiguresTransform", "Ex10_FiguresTransform\FiguresTransform\FiguresTransform.csproj", "{BC977AB4-93F1-4798-9F12-96DFDFC69672}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,10 @@ Global
 		{953D0538-D5B9-4B4E-8F20-E0078D112E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{953D0538-D5B9-4B4E-8F20-E0078D112E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{953D0538-D5B9-4B4E-8F20-E0078D112E83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC977AB4-93F1-4798-9F12-96DFDFC69672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC977AB4-93F1-4798-9F12-96DFDFC69672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC977AB4-93F1-4798-9F12-96DFDFC69672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC977AB4-93F1-4798-9F12-96DFDFC69672}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -95,6 +103,7 @@ Global
 		{70999717-776C-4A23-AB68-5513F1125E36} = {428784DA-02CC-4F12-A6CA-5C88725D6430}
 		{28F35E4C-5F3E-459C-A4E8-AE0070DAEEE8} = {86B6BCD8-2E07-40DF-B85C-00486FBC9E35}
 		{953D0538-D5B9-4B4E-8F20-E0078D112E83} = {E6399131-97E1-4190-824A-E8299E15ACB1}
+		{BC977AB4-93F1-4798-9F12-96DFDFC69672} = {3AFC9362-7895-401D-A538-18948461DF40}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7166BBE0-D0A8-41F5-93FD-F247FA9179A5}
