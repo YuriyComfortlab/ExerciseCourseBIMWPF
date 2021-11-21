@@ -1,0 +1,96 @@
+﻿<Window x:Class="BlendGeometry.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BlendGeometry"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="400">
+    <Grid>
+        <Path Data="M173.33155,63.066301 C158.49822,44.566301 168.52328,7.7580444 183.56202,11.641687 202.37121,16.499017 189.04536,63.24073 189.04536,63.907401" HorizontalAlignment="Left" Height="54.326" Margin="166.092,10.607,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="29.548" StrokeThickness="0.2">
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="LightBlue" Offset="0.502"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M188.66667,148.66667" HorizontalAlignment="Left" Height="0" Margin="188.667,148.667,0,0" Stretch="Fill" VerticalAlignment="Top" Width="0">
+            <Path.Fill>
+                <RadialGradientBrush >
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="Yellow" Offset="1"/>
+                </RadialGradientBrush>
+            </Path.Fill>
+        </Path>
+        <Path Data="M194.99994,308.50053 C194.99994,308.50053 183.33202,281.83128 131.49938,276.99751 50.441252,269.43826 20.498416,261.49639 20.498416,261.49639 20.498416,261.49639 182.97308,381.92402 195.49994,308.50053" HorizontalAlignment="Left" Height="75.724" Margin="18.5,259.5,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="180" Fill="#FF25A200"/>
+        <Path Data="M180.52937,118.15618 C167.19604,352.82285 194.66762,185.66721 184.00045,380.33424" HorizontalAlignment="Left" Height="262.083" Margin="171.994,118.25,0,0" Stretch="Fill" VerticalAlignment="Top" Width="27.584" StrokeThickness="5" Stroke="#FF0B9711"/>
+        <Path Data="M173.33155,63.066301 C158.49822,44.566301 168.52328,7.7580444 183.56202,11.641687 202.37121,16.499017 189.04536,63.24073 189.04536,63.907401" HorizontalAlignment="Left" Height="54.326" Margin="228.14,24.857,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="29.548" StrokeThickness="0.2">
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="LightBlue" Offset="0.502"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+            <Path.RenderTransform>
+                <RotateTransform Angle="45" CenterX="0" CenterY="0" />
+            </Path.RenderTransform>
+        </Path>
+        <Path Data="M173.33155,63.066301 C158.49822,44.566301 168.52328,7.7580444 183.56202,11.641687 202.37121,16.499017 189.04536,63.24073 189.04536,63.907401" HorizontalAlignment="Left" Height="54.326" Margin="108.842,48.607,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="29.548" StrokeThickness="0.2">
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="LightBlue" Offset="0.502"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+            <Path.RenderTransform>
+                <RotateTransform Angle="-45" CenterX="0" CenterY="0" />
+            </Path.RenderTransform>
+        </Path>
+        <Path Data="M173.33155,63.066301 C158.49822,44.566301 168.52328,7.7580444 183.56202,11.641687 202.37121,16.499017 189.04536,63.24073 189.04536,63.907401" HorizontalAlignment="Left" Height="54.326" Margin="261.342,81.107,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="29.548" StrokeThickness="0.2">
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="LightBlue" Offset="0.502"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+            <Path.RenderTransform>
+                <RotateTransform Angle="90" CenterX="0" CenterY="0" />
+            </Path.RenderTransform>
+        </Path>
+        <Path Data="M173.33155,63.066301 C158.49822,44.566301 168.52328,7.7580444 183.56202,11.641687 202.37121,16.499017 189.04536,63.24073 189.04536,63.907401" HorizontalAlignment="Left" Height="54.326" Margin="247.578,140.857,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="29.548" StrokeThickness="0.2">
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="LightBlue" Offset="0.502"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+            <Path.RenderTransform>
+                <RotateTransform Angle="135" CenterX="0" CenterY="0" />
+            </Path.RenderTransform>
+        </Path>
+        <Path Data="M173.33155,63.066301 C158.49822,44.566301 168.52328,7.7580444 183.56202,11.641687 202.37121,16.499017 189.04536,63.24073 189.04536,63.907401" HorizontalAlignment="Left" Height="54.326" Margin="131.078,157.607,0,0" Stretch="Fill" Stroke="Black" VerticalAlignment="Top" Width="29.548" StrokeThickness="0.2">
+            <Path.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" MappingMode="RelativeToBoundingBox" StartPoint="0.5,0">
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="LightBlue" Offset="0.502"/>
+                </LinearGradientBrush>
+            </Path.Fill>
+            <Path.RenderTransform>
+                <RotateTransform Angle="-135" CenterX="0" CenterY="0" />
+            </Path.RenderTransform>
+        </Path>
+        <Path Margin="-20.167,-107.167,20.167,107.167" Stroke="Black" StrokeThickness="0.5">
+            <Path.Fill>
+                <RadialGradientBrush >
+                    <GradientStop Color="White"/>
+                    <GradientStop Color="Yellow" Offset="1"/>
+
+                </RadialGradientBrush>
+            </Path.Fill>
+            <Path.Data>
+                <EllipseGeometry Center="200,200" RadiusX="30" RadiusY="30" />
+            </Path.Data>
+        </Path>
+    </Grid>
+</Window>
