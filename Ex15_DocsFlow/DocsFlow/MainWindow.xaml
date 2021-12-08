@@ -1,0 +1,160 @@
+﻿<Window x:Class="DocsFlow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DocsFlow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+
+        </Grid.RowDefinitions>
+
+        <FlowDocumentScrollViewer x:Name="docViewer">
+            <FlowDocument>
+                <Paragraph>
+                    <Hyperlink NavigateUri="https://ru.wikipedia.org/wiki/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D1%8F_(%D0%B6%D0%B0%D0%BD%D1%80_%D0%B6%D1%83%D1%80%D0%BD%D0%B0%D0%BB%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B8)" >
+                        Статья́
+                    </Hyperlink>
+                </Paragraph>
+
+                <Paragraph>
+
+                    <Span Background="GreenYellow">
+                        <Bold>Статья́</Bold> —
+                        <Italic>это жанр журналистики, в котором автор ставит задачу проанализировать общественные ситуации, 
+                процессы, явления, прежде всего с точки зрения закономерностей, лежащих в их основе.
+                Такому жанру как статья присуща ширина практических обобщений, глубокий анализ фактов и явлений, 
+                четкая социальная направленность
+                            <Run Foreground="Red">[источник не указан 4450 дней]</Run> . В статье автор 
+                рассматривает отдельные ситуации как часть более широкого явления.
+                            <Underline>Автор аргументированно пишет о своей точке зрения.</Underline>
+                        </Italic>
+                    </Span>
+                </Paragraph>
+
+                <List MarkerStyle="Box">
+                    <ListItem>
+                        <Paragraph>
+                            <Hyperlink>
+                                Пример Статьи 1</Hyperlink>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Hyperlink>
+                                Пример Статьи 2</Hyperlink>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Hyperlink>
+                                Пример Статьи 3</Hyperlink>
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph>
+                    <Floater HorizontalAlignment="Stretch">
+                        <BlockUIContainer>
+                            <Image Source="Data/1.jpg"/>
+                        </BlockUIContainer>
+
+                    </Floater>
+                </Paragraph>
+
+                <Paragraph>
+                    В статье выражается развернутая обстоятельная аргументированная концепция автора или редакции по 
+                поводу актуальной социологической проблемы. Также в статье журналист обязательно должен интерпретировать 
+                факты (это могут быть цифры, дополнительная информация, которая будет правильно расставлять акценты и ярко раскрывать суть вопроса).
+
+                Отличительным аспектом статьи является её готовность. Если подготавливаемый материал так и не был 
+                опубликован (не вышел в тираж, не получил распространения), то такой труд относить к статье некорректно. 
+                Скорее всего данную работу можно назвать черновиком или заготовкой. Поэтому целью любой статьи является 
+                распространение содержащейся в ней информации.
+                </Paragraph>
+                <Paragraph >
+                    <Bold>Статья может быть оформлена в виде колонок</Bold>
+                </Paragraph>
+                <Section FontSize="10">
+                    <Table>
+                        <Table.Columns>
+                            <TableColumn Width="*"/>
+                            <TableColumn Width="*"/>
+                            <TableColumn Width="*"/>
+                        </Table.Columns>
+                        <TableRowGroup>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>
+                                        Статья 1
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        Статья 2
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        Статья 2
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>
+                                        Текст статьи 1
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        Текст статьи 2
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        Текст статьи 3
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <TableRow>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Italic>Подпись статьи 1</Italic>
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Italic>Подпись статьи 2</Italic>
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell>
+                                    <Paragraph>
+                                        <Italic>Подпись статьи 3</Italic>
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                    </Table>
+                </Section>
+                <BlockUIContainer>
+                    <StackPanel>
+                        <TextBlock Text="Press Button"/>
+                        <Button Content="Press"/>
+                    </StackPanel>
+                </BlockUIContainer>
+
+            </FlowDocument>
+        </FlowDocumentScrollViewer>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button Content="Open" Click="Button_Click_2"/>
+            <Button Content="Save" Click="Button_Click_1"/>
+            <Button Content="Clear" Click="Button_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Window>
+

@@ -61,6 +61,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex14_DataTemplate", "Ex14_D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTemplate", "Ex14_DataTemplate\DataTemplate\DataTemplate.csproj", "{41C3F310-F28D-4AB4-B476-D01D02F66A5F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex15_DocsFlow", "Ex15_DocsFlow", "{421900F6-219C-41C5-A888-312E0FAC7442}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DocsFlow", "Ex15_DocsFlow\DocsFlow\DocsFlow.csproj", "{E9BD631A-359A-4831-BEAC-9096C21DE504}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -127,6 +131,10 @@ Global
 		{41C3F310-F28D-4AB4-B476-D01D02F66A5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{41C3F310-F28D-4AB4-B476-D01D02F66A5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{41C3F310-F28D-4AB4-B476-D01D02F66A5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9BD631A-359A-4831-BEAC-9096C21DE504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9BD631A-359A-4831-BEAC-9096C21DE504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9BD631A-359A-4831-BEAC-9096C21DE504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9BD631A-359A-4831-BEAC-9096C21DE504}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -147,6 +155,7 @@ Global
 		{90796DC7-8AE0-43C3-A211-76C4D7A14330} = {EA26625E-947D-48F6-BC76-DBDE2C20E67F}
 		{F8729260-0193-405B-8978-BA1593AFC31C} = {52B62CE8-425C-4EEB-BFFD-1E2AF301B6EB}
 		{41C3F310-F28D-4AB4-B476-D01D02F66A5F} = {7D48DB3A-6460-42F2-8A66-9CB1A0C6F218}
+		{E9BD631A-359A-4831-BEAC-9096C21DE504} = {421900F6-219C-41C5-A888-312E0FAC7442}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7166BBE0-D0A8-41F5-93FD-F247FA9179A5}
