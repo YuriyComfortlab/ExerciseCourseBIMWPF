@@ -71,6 +71,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimationEye", "Ex16_Animat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimationBall", "Ex16_Animation\AnimationBall\AnimationBall.csproj", "{A560D644-F2EA-48A1-8FDD-729C62EA8180}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ex17_UserCntrl", "Ex17_UserCntrl", "{BFA71096-DEF5-432C-AF94-A0CE5E62B1DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserColorSlider", "Ex17_UserCntrl\UserColorSlider\UserColorSlider.csproj", "{0694993E-C965-4BB6-BB34-B1D646DD8C38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -149,6 +153,10 @@ Global
 		{A560D644-F2EA-48A1-8FDD-729C62EA8180}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A560D644-F2EA-48A1-8FDD-729C62EA8180}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A560D644-F2EA-48A1-8FDD-729C62EA8180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0694993E-C965-4BB6-BB34-B1D646DD8C38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0694993E-C965-4BB6-BB34-B1D646DD8C38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0694993E-C965-4BB6-BB34-B1D646DD8C38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0694993E-C965-4BB6-BB34-B1D646DD8C38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -172,6 +180,7 @@ Global
 		{E9BD631A-359A-4831-BEAC-9096C21DE504} = {421900F6-219C-41C5-A888-312E0FAC7442}
 		{CACC872C-9D5C-42A9-B9DA-1D9F7C8EC5F6} = {B61C5E58-CDC7-4A3A-BD6A-A7FF8230C669}
 		{A560D644-F2EA-48A1-8FDD-729C62EA8180} = {B61C5E58-CDC7-4A3A-BD6A-A7FF8230C669}
+		{0694993E-C965-4BB6-BB34-B1D646DD8C38} = {BFA71096-DEF5-432C-AF94-A0CE5E62B1DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7166BBE0-D0A8-41F5-93FD-F247FA9179A5}
