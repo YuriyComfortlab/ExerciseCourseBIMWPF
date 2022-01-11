@@ -11,7 +11,7 @@
         <vm:MainWindowViewModel/>
     </Window.DataContext>
     <StackPanel>
-        <TextBox Text="{Binding Path=Number1}"/>
+        <TextBox Text="{Binding Path=Number1, UpdateSourceTrigger=PropertyChanged}"/>
         <Button Content="Длина окружности" Command="{Binding Path=AddCommand}"/>
         <TextBox Text="{Binding Path=Number2}"/>
               
